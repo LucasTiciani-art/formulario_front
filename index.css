@@ -1,5 +1,110 @@
 main{
-    color: blue;
+    color: rgb(0, 0, 76);
     font-size: 10px;
-    background-color:#00000;
+    background-color: #6464540d;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    align-self: auto;
+}
+.genero-field{
+    margin-bottom: 15px;
+    border: 3px solid #90828217;
+    border-bottom: 15px  #90828217;
+}
+
+.selecione{
+    color: #000000;
+    background-color: #00000088;
+
+}
+
+.preferencias-field{
+    margin-bottom: 15px;
+    border: 3px solid #0000009f;
+    border-bottom: 15px  #2425016b;
+}
+
+.contato-field{
+    margin-bottom: 15px;
+    border: 3px solid #0000009f;
+    border-bottom: 15px  #2425016b;
+}
+
+.mensagem-field{
+    margin-bottom: 15px;
+    border: 3px solid #0000009f;
+    border-bottom: 15px  #2425016b;
+    background-color: #f3f3ebc5;
+
+}
+
+body{
+    color: black;
+    background-color: #cacbbc;
+    width: 200px;              
+    height: auto;                
+    border: 3px solid #333;  
+    padding: 20px;             
+    margin: 30px auto;         
+    text-align: center;        
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 1.711); 
+    border-radius: 10px;     
+}
+
+.selecione{
+    border-top: #000000;
+    margin-bottom: 15px;
+    border: 3px solid #00000017;
+    border-bottom: 15px  #00000017; 
+
+}
+
+.nome-field{
+    input{
+        width: 100%;
+        padding: 8px;
+        color: #000000;
+        box-sizing: border-box;
+        background-color: #f3f3ebc5;
+    }
+    margin-bottom: 15px;
+    border: 3px solid #90828217;
+    border-bottom: 15px  #90828217;
+}       
+
+.email-field{
+    input{
+        width: 100%;
+        padding: 8px;
+        color: #000000;
+        box-sizing: border-box;
+        background-color: #f3f3ebc5;
+    }
+    margin-bottom: 15px;
+    border: 3px solid #90828217;
+    border-bottom: 15px  #90828217;
+}
+
+.genero-field{
+    margin-bottom: 15px;
+    border: 3px solid #90828217;
+    border-bottom: 15px  #90828217;
+}
+
+input{
+    color: #FFFFF0;
+    font-weight: 200;
+}
+
+input, textarea{
+color:red;
+background-color: rgba(46, 2, 43, 0.181);
+
+}
+
+.checkedbox{
+    background-color: #000000;
+    color: #000000;
 }
